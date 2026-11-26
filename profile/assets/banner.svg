@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="kurtio profile banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="55%" stop-color="#111b2e"/>
+      <stop offset="100%" stop-color="#0a1a17"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#4ade80" stop-opacity="0.85"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <g stroke="#22d3ee" stroke-opacity="0.08" stroke-width="1">
+    <path d="M0 80h1280M0 160h1280M0 240h1280"/>
+    <path d="M160 0v320M320 0v320M480 0v320M640 0v320M800 0v320M960 0v320M1120 0v320"/>
+  </g>
+  <circle cx="1090" cy="80" r="140" fill="#22d3ee" fill-opacity="0.06"/>
+  <circle cx="180" cy="270" r="110" fill="#4ade80" fill-opacity="0.05"/>
+  <text x="80" y="132" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="56" font-weight="700" fill="#e2e8f0">kurtio@arch</text>
+  <text x="80" y="182" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="26" fill="#94a3b8">~/ .profile</text>
+  <text x="80" y="238" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="24" fill="#4ade80">λ build. ship. maintain.</text>
+  <rect x="80" y="262" width="300" height="4" rx="2" fill="url(#glow)"/>
+  <g font-family="'JetBrains Mono',Consolas,monospace" font-size="18" fill="#64748b">
+    <text x="1090" y="286" text-anchor="end">go · c++ · python · linux</text>
+  </g>
+</svg>
