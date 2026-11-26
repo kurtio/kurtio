@@ -1,0 +1,6 @@
+# markdownlint 配置：README 需要居中图片与 HTML 徽章，故放开相关规则
+config:
+  default: true
+  MD013: false   # 行长度限制：中文与长链接不适合硬换行
+  MD033: false   # 允许内联 HTML（<p align="center">、<sub>）
+  MD041: false   # 首行标题：允许在 H1 前放横幅
